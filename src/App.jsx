@@ -3,16 +3,12 @@ import Greetings from "./components/Greetings";
 import ProductInfo from "./components/ProductInfo";
 import UserList from "./components/UserList";
 import Person from "./components/Person";
+import Objects from "./components/Objects";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return (
+  return (  
     <>
-  <Person name ="Alex" age ="20" hobbies = {["Reading", "Coding", "Playing Chess"]} >
-   <p>This is data passing to the componet!</p>   
-    </Person>
-
+    <Objects />
     </>
   );
 }
