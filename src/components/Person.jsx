@@ -1,8 +1,9 @@
 import React from 'react'
+import stylse from "./Person.module.css"
 
 const Person = (props) => {
   return (
-    <div>
+    <div className={stylse.card}>
       <h2>User Name:  {props.name}</h2>
       <h3>User Age: {props.age}</h3>
       <h3>User Hobbies:
