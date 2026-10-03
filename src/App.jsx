@@ -9,7 +9,10 @@ function App() {
 
   return (
     <>
-  <Person name ="Alex" age ="20" hobbies = {["Reading", "Coding", "Playing Chess"]} />
+  <Person name ="Alex" age ="20" hobbies = {["Reading", "Coding", "Playing Chess"]} >
+   <p>This is data passing to the componet!</p>   
+    </Person>
+
     </>
   );
 }

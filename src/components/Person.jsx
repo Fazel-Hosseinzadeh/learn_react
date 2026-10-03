@@ -13,6 +13,7 @@ const Person = (props) => {
 
       ))}
       </h3>
+      <h1>{props.children}</h1>
     </div>
   );
 }
